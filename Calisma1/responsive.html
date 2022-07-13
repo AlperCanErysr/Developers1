@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE</title>
+
+    <style>
+        .kutu {
+            width: 25%;
+           
+            background-color: lightskyblue;
+            float: left;
+            border: 1px solid black;
+        }
+
+        @media screen and (max-width:900px) {
+            .kutu {
+                width: 50%;
+                background-color: crimson;
+            }
+        }
+
+        @media screen and (max-width:650px) {
+            .kutu {
+                width: 100%;
+                background-color: yellow;
+            }
+        }
+        img{
+            max-width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="kutu">
+        <img src="Wallpaper.png" alt="">
+    </div>
+    <div class="kutu">
+        <img src="Wallpaper4.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="Wallpaper.png" alt=""></div>
+    <div class="kutu">
+        <img src="Wallpaper4.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="Wallpaper.png" alt="">
+    </div>
+
+</body>
+
+</html>

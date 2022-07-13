@@ -1,0 +1,12 @@
+div p{
+    color:red;
+}
+.container{
+    color:royalblue;
+}
+.container div{
+    color:chartreuse;
+}
+.container div p {
+    font-size: 25px;
+}
